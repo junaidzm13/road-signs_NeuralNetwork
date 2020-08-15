@@ -3,7 +3,9 @@
 ### Designed, developed and implemented an AI to identify and label traffic signs appearing in photographs.
 
 ## How to run?
-  - In repo, run **python traffic.py gtsrb**
+  -  Run pip3 install -r requirements.txt to install this project’s dependencies: opencv-python for image processing, scikit-learn for ML-related functions, and tensorflow for neural networks.
+  - Then in repo, run **python traffic.py gtsrb**
+  - Please note that dataset have not been provided due to size constraints. Please download it from the source provided and rename it to *gtsrb*.
   
 ## Background
 As research continues in the development of self-driving cars, one of the key challenges is [computer vision](https://en.wikipedia.org/wiki/Computer_vision), allowing these cars to develop an understanding of their environment from digital images. In particular, this involves the ability to recognize and distinguish road signs – stop signs, speed limit signs, yield signs, and more.
